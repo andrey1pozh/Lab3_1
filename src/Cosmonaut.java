@@ -7,7 +7,7 @@ public class Cosmonaut extends Human {
     }
 
     protected static void fall(String event) {
-        if (event.equals("От внезапного изменения курса ")){
+        if (event.equals("От внезапного изменения курса")){
             System.out.print("упали");
         }
         else {
@@ -28,7 +28,7 @@ public class Cosmonaut extends Human {
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.name});
+        return Objects.hash(this.name);
     }
 
     public String toString() {

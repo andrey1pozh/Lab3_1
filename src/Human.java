@@ -14,11 +14,12 @@ public abstract class Human {
         return this.name;
     }
 
-    protected void shoot() {
+    protected String shoot() {
+        return null;
     }
 
-    protected static void fall() {
-    }
+    //protected static void fall() {
+    //}
 
     public boolean equals(Object obj) {
         if (obj != null && obj.getClass() == this.getClass()) {
@@ -34,7 +35,7 @@ public abstract class Human {
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.name});
+        return Objects.hash(this.name);
     }
 
     public String toString() {

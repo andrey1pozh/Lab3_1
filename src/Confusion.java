@@ -6,8 +6,8 @@ public class Confusion extends Thing{
         setName(name);
     }
 
-    protected void happen(){
-        System.out.print("Произошло ");
+    public String happen(){
+        return "Произошло";
     }
 
     public boolean equals(Object obj) {
@@ -24,7 +24,7 @@ public class Confusion extends Thing{
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.name});
+        return Objects.hash(this.name);
     }
 
     public String toString() {

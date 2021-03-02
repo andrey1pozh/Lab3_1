@@ -18,8 +18,8 @@ public class Hit implements IHit {
         }
 
     }
-    public void was(){
-        System.out.print(" был");
+    public String was(){
+        return "был";
     }
 
     public boolean equals(Object obj) {
@@ -36,7 +36,7 @@ public class Hit implements IHit {
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.Name});
+        return Objects.hash(this.Name);
     }
 
     public String toString() {

@@ -11,8 +11,8 @@ public class Policeman extends Human {
         this.description = description;
     }
 
-    protected void shoot() {
-        System.out.println(" выстрелил " + description);
+    protected String shoot() {
+        return "выстрелил " + description;
     }
 
     public boolean equals(Object obj) {
@@ -29,7 +29,7 @@ public class Policeman extends Human {
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.name});
+        return Objects.hash(this.name);
     }
 
     public String toString() {

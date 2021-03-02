@@ -25,7 +25,7 @@ public class Bullet extends Thing{
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.name});
+        return Objects.hash(this.name);
     }
 
     public String toString() {

@@ -17,7 +17,8 @@ public abstract class Thing {
     protected void noPunch() {
     }
 
-    protected void happen() {
+    public String happen() {
+        return null;
     }
 
     public boolean equals(Object obj) {

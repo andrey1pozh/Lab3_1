@@ -5,7 +5,7 @@ public enum Any {
     INAIR(" в воздухе"),
     STEEL(" оболочку"),
     FEEL(" особенно ощутим"),
-    PATH("От внезапного изменения курса "),
+    PATH("От внезапного изменения курса"),
     PLACE(" с мест");
 
     private final String name;

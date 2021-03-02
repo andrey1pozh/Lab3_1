@@ -3,6 +3,6 @@ public interface IHit {
 
     }
 
-    void was();
+    String was();
 
 }

@@ -52,7 +52,7 @@ public class Rocket implements IRocket {
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.Name});
+        return Objects.hash(this.Name);
     }
 
     public String toString() {

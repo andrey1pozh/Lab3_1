@@ -23,11 +23,10 @@ public class Main {
 
 
         System.out.print(timeName);
-        System.out.print(policeman.getName());
-        policeman.shoot();
+        System.out.println(policeman.getName() + " " + policeman.shoot());
         //System.out.println(inrName);
 
-        hit.isHeard(Math.random() * (100 - 0) + 0);
+        Hit.isHeard(Math.random() * 100);
         System.out.println(hit.getName());
 
         System.out.println(rocket.getName() + " " + rocket.shake());
@@ -41,18 +40,15 @@ public class Main {
         //bullet.noPunch();
         System.out.println(steelName);
 
-        System.out.print(rocket.getName());
-        rocket.weightlessness();
+        System.out.println(rocket.getName() + " " + rocket.weightlessness());
 
-        System.out.print(hit.getName());
-        hit.was();
+        System.out.print(hit.getName() + " " + hit.was());
         System.out.println(feelName);
 
-        System.out.print(pathName + cosmonaut.getName() + "ы ");
-        cosmonaut.fall(pathName);
+        System.out.print(pathName + ", " + cosmonaut.getName() + "ы ");
+        Cosmonaut.fall(pathName);
         System.out.println(placeName);
 
-        confusion.happen();
-        System.out.print(confusion.getName());
+        System.out.print(confusion.happen() + " " + confusion.getName());
     }
 }
