@@ -35,7 +35,7 @@ public abstract class Thing {
     }
 
     public int hashCode() {
-        return Objects.hash(new Object[]{this.Name});
+        return Objects.hash(this.Name);
     }
 
     public String toString() {
