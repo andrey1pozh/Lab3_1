@@ -5,7 +5,7 @@ public class Main {
         String timeName = Any.TIME.getName();
         //String inrName = Any.INR.getName();
         String controlName = Any.CONTROL.getName();
-        String inairName = Any.INAIR.getName();
+        String inAirName = Any.INAIR.getName();
         String steelName = Any.STEEL.getName();
         String feelName = Any.FEEL.getName();
         String pathName = Any.PATH.getName();
@@ -33,7 +33,7 @@ public class Main {
         System.out.print(rocket.getName()+ " " + rocket.loseControl());
         System.out.println(controlName);
         System.out.print(rocket.getName() + " " + rocket.rollOver());
-        System.out.println(inairName);
+        System.out.println(inAirName);
 
         System.out.print(bullet.getName());
         Rocket.hpBar("steal");

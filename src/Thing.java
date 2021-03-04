@@ -14,8 +14,8 @@ public abstract class Thing {
         return this.Name;
     }
 
-    protected void noPunch() {
-    }
+    //protected void noPunch() {
+    //}
 
     public String happen() {
         return null;
